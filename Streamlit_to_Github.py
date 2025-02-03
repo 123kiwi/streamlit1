@@ -11,7 +11,9 @@ page=st.sidebar.radio("Go to", pages)
 
 # Write "Presentation of data" at the top of the first page
 if page == pages[0] : 
-  st.write("### Presentation of data")
+  st.write("### Presentation of data")  
+  st.write("line 2")
+
   
   
 # Write "DataVizualization" at the top of the second page
