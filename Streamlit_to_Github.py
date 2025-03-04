@@ -6,7 +6,7 @@ st.title("Air BnB : A Data-Driven Analysis")
 st.write("A Streamlit project by MM, EB & MS.")
 st.sidebar.title("Table of contents")
 # Create three pages
-pages=["Exploration", "DataVizualization", "Modelling"]
+pages=["Introduction", "Exploration", "DataVizualization", "Data Modelling", "Prediction", "Conclusion"]
 page=st.sidebar.radio("Go to", pages)
 
 # Write "Presentation of data" at the top of the first page
