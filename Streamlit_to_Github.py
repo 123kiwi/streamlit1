@@ -6,7 +6,7 @@ st.title("Air BnB : A Data-Driven Analysis")
 st.write("A Streamlit project by MM, EB & MS.")
 st.sidebar.title("Table of contents")
 # Create three pages
-pages=["Introduction", "Exploration", "DataVizualization", "Data Modelling", "Prediction", "Conclusion"]
+pages=["Introduction", "Data Exploration", "Data Vizualization", "Data Modelling", "Prediction", "Conclusion"]
 page=st.sidebar.radio("Go to", pages)
 
 # Write "Presentation of data" at the top of the first page
@@ -21,11 +21,26 @@ if page == pages[0] :
 
   
   
-# Write "DataVizualization" at the top of the second page
+# Write "Data Exploration" at the top of the second page
 if page == pages[1] : 
-  st.write("### DataVizualization")
+  st.write("### Data Exploration")
 
   
-# Write "Modelling" at the top of the third page
+# Write "Data Visualisation" at the top of the third page
 if page == pages[2] : 
-  st.write("### Modelling")
+  st.write("### Data Visualisation")
+
+
+# Write "Data Modelling" at the top of the fourth page
+if page == pages[3] : 
+  st.write("### Data Modelling")
+
+
+# Write "Prediction" at the top of the fifth page
+if page == pages[4] : 
+  st.write("### Prediction")
+
+
+# Write "Conclusion" at the top of the sixth page
+if page == pages[5] : 
+  st.write("### Conclusion")
