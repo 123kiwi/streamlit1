@@ -6,7 +6,7 @@ st.title("Air BnB : A Data-Driven Analysis")
 
 ### SIDEBAR CONFIGURATION ###
 
-st.sidebar.image("Streamlit_to_Github/airbnb.jpg", width=300)
+st.sidebar.image("airbnb.jpg", width=300)
 
 st.sidebar.title("Table of contents")
 # Create six pages
