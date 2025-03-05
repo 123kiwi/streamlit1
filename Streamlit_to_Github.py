@@ -13,7 +13,7 @@ st.sidebar.title("Table of contents")
 pages=["Introduction", "Data Exploration and Preprocessing", "Data Visualization", "Data Modelling", "Prediction", "Conclusion"]
 page=st.sidebar.radio("Go to", pages)
 
-st.sidebar.markdown("<br><br><br><br>", unsafe_allow_html=True)
+st.sidebar.markdown("<br><br>", unsafe_allow_html=True)
 
 #Path to logo file
 logo_url = 'https://assets-datascientest.s3-eu-west-1.amazonaws.com/notebooks/looker_studio/logo_datascientest.png'
