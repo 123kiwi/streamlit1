@@ -13,7 +13,6 @@ page=st.sidebar.radio("Go to", pages)
 
 ### SIDEBAR CONFIGURATION ###
 
-st.sidebar.image("Streamlit_to_Github/airbnb.jpg", width=300)
 
 st.sidebar.title("Table of contents")
 pages=["Introduction", "Data Exploration and Preprocessing", "Data Visualization", "Data Modelling", "Prediction", "Conclusion"]
