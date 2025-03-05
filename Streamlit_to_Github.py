@@ -3,20 +3,15 @@ import streamlit as st
 
 # Add a title
 st.title("Air BnB : A Data-Driven Analysis")
-st.write("A Streamlit project by MM, EB & MS.")
-st.sidebar.title("Table of contents")
-# Create six pages
-pages=["Introduction", "Data Exploration", "Data Vizualization", "Data Modelling", "Prediction", "Conclusion"]
-page=st.sidebar.radio("Go to", pages)
-
-
 
 ### SIDEBAR CONFIGURATION ###
 
+st.sidebar.image("Streamlit_to_Github/airbnb.jpg", width=300)
 
 st.sidebar.title("Table of contents")
+# Create six pages
 pages=["Introduction", "Data Exploration and Preprocessing", "Data Visualization", "Data Modelling", "Prediction", "Conclusion"]
-page=st.sidebar.radio("", pages)
+page=st.sidebar.radio("Go to", pages)
 
 st.sidebar.markdown("<br><br><br><br>", unsafe_allow_html=True)
 
