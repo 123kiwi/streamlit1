@@ -5,9 +5,52 @@ import streamlit as st
 st.title("Air BnB : A Data-Driven Analysis")
 st.write("A Streamlit project by MM, EB & MS.")
 st.sidebar.title("Table of contents")
-# Create three pages
+# Create six pages
 pages=["Introduction", "Data Exploration", "Data Vizualization", "Data Modelling", "Prediction", "Conclusion"]
 page=st.sidebar.radio("Go to", pages)
+
+
+
+### SIDEBAR CONFIGURATION ###
+
+st.sidebar.image("Streamlit_to_Github/airbnb.jpg", width=300)
+
+st.sidebar.title("Table of contents")
+pages=["Introduction", "Data Exploration and Preprocessing", "Data Visualization", "Data Modelling", "Prediction", "Conclusion"]
+page=st.sidebar.radio("", pages)
+
+st.sidebar.markdown("<br><br><br><br>", unsafe_allow_html=True)
+
+#Path to logo file
+logo_url = 'https://assets-datascientest.s3-eu-west-1.amazonaws.com/notebooks/looker_studio/logo_datascientest.png'
+
+st.sidebar.markdown(
+  f"""
+  <style>
+    .sidebar-content {{
+        text-align: center;}}
+
+    .sidebar-content img {{
+        width: 50px; 
+        margin: 10px 0;}}
+
+    </style>
+    <div class="sidebar-content">
+      <p><i><b>A Datascientest project carried out by </br> Ecem BOZKAYA </br> Marta MURAWSKA </br> Matthew SELWYN </br> </i></p>
+      <p><i><b>Project mentor: Tarik Anouar</b></i></p>
+      <img src="{logo_url}" alt="Logo">
+      <p>Data Analyst Training - December 2024 Cohort</p>
+    </div>
+    """,
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
 
 # Write "Presentation of data" at the top of the first page
 if page == pages[0] : 
