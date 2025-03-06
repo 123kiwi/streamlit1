@@ -77,7 +77,7 @@ if page == pages[0]:
     )
 
     # Display an image with the correct parameter
-    st.image("AirBnB/airbnb.jpg", use_column_width=True)
+    st.image("AirBnB/airbnb.jpg", use_container_width=True)
 
     
     image_path = "AirBnB/Airbnb.jpg"
