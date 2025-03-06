@@ -90,7 +90,7 @@ elif page == pages[1]:
         The data utilizes public information compiled from the Airbnb website including price, availability, and reviews for each listing. No private information is being used, as all names, listings, and review details are publicly displayed on the Airbnb site. 🔍💼<br>
 
         The platform has datasets from 117 cities from around the world, and for this project we chose to focus on Paris. 🗼<br><br>
-        More details can be found at: <a href="https://insideairbnb.com/get-the-data/" target="_blank">Inside Airbnb Paris</a>.
+        More details can be found at: <a href="https://insideairbnb.com/paris/" target="_blank">Inside Airbnb Paris</a>.
         </div>
         """,
         unsafe_allow_html=True
