@@ -77,12 +77,8 @@ if page == pages[0]:
     )
 
     # Display an image with the correct parameter
-    st.image("AirBnB/airbnb.jpg", use_container_width=True)
+    st.image("AirBnB/Airbnb_real.jpg", use_container_width=True)
 
-    
-    image_path = "AirBnB/Airbnb.jpg"
-    image = Image.open(image_path)
-    st.image(image, caption="Airbnb Pricing Analysis", use_column_width=True)
 #______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 elif page == pages[1]:
     st.header("Data Audit & Exploration")
