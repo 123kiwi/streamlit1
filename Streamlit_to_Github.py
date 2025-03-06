@@ -156,7 +156,7 @@ elif page == pages[1]:
     )
     st.dataframe(df_display)
     # Display the shape of the full dataframe
-    st.markdown(f"**Dataset Shape:** `{df.shape}` (rows, columns)”)
+    st.markdown(f"**Dataset Shape:** `{df.shape}` (rows, columns)")
 
 
     st.markdown(
