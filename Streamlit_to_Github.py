@@ -138,7 +138,7 @@ elif page == pages[1]:
 
     # Select specific columns to display in the table
     columns_to_display = [
-        'name', 'property_type', 'latitude', 'longitude', 'bathrooms_text',
+        'property_type', 'latitude', 'longitude', 'bathrooms_text',
         'bedrooms', 'beds', 'price', 'number_of_reviews', 'review_scores_rating'
     ]
 
