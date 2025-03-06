@@ -1087,7 +1087,7 @@ elif page == pages[4]:
     import seaborn as sns
 
     # Load the data
-    file_path = r"AirBnB\df_last_encoding.csv"
+    file_path = r"AirBnB/df_last_encoding.csv"
     df = pd.read_csv(file_path)
 
 
