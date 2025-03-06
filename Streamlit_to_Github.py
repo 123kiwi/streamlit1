@@ -46,8 +46,8 @@ st.sidebar.markdown(
 
     </style>
     <div class="sidebar-content">
-      <p><i><b>A Machine Learning project </br> carried out by: </br> Ecem BOZKAYA </br> Marta MURAWSKA </br> Matthew SELWYN </br> </i></p>
-      <p><i><b>Project mentor: Tarik Anouar</b></i></p>
+      <p><b>A Machine Learning project </br> carried out by: </br><i> Ecem BOZKAYA </br> Marta MURAWSKA </br> Matthew SELWYN </br> </i></p>
+      <p><b>Project mentor:<i> Tarik Anouar</b></i></p>
       <img src="{logo_url}" alt="Logo">
       <p>Datascientest </br> Data Analyst Training </br> December 2024 Cohort</p>
     </div>
