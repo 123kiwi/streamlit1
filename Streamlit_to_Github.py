@@ -315,7 +315,7 @@ elif page == pages[2]:
     import pandas as pd
 
     # Load the cleaned and pre-processed data
-    file_path_cleaned = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding_drop.csv"
+    file_path_cleaned = "AirBnB/df_last_encoding_drop.csv"
     df_cleaned = pd.read_csv(file_path_cleaned)
 
     # Select specific columns to display in the table
@@ -374,7 +374,7 @@ elif page == pages[3]:
     import streamlit as st
 
     # Load the data
-    file_path_cleaned = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding_drop.csv"
+    file_path_cleaned = "AirBnB/df_last_encoding_drop.csv"
     df_final = pd.read_csv(file_path_cleaned)
 
 
@@ -457,7 +457,7 @@ elif page == pages[3]:
     import matplotlib.pyplot as plt
     import pandas as pd
     # Load the cleaned and pre-processed data
-    file_path_cleaned = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path_cleaned = "AirBnB/df_last_encoding.csv"
     df_cleaned = pd.read_csv(file_path_cleaned)
 
     # Assuming df_filtered contains your data and 'property_type_grouped' is the grouping column
@@ -524,7 +524,7 @@ elif page == pages[3]:
     import numpy as np
 
     # Load the data
-    file_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path = "AirBnB/df_last_encoding.csv"
     df_final = pd.read_csv(file_path)
 
     # Calculate mean and median prices by property type
@@ -620,7 +620,7 @@ elif page == pages[3]:
     import streamlit as st
 
     # Load the data
-    file_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path = "AirBnB/df_last_encoding.csv"
     df_filtered = pd.read_csv(file_path)
 
     # Check for unique property types in the dataset
@@ -714,7 +714,7 @@ elif page == pages[3]:
     import matplotlib.pyplot as plt
 
     # Load the data
-    file_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path = "AirBnB/df_last_encoding.csv"
     df_filtered = pd.read_csv(file_path)
 
 
@@ -785,7 +785,7 @@ elif page == pages[3]:
     import pandas as pd
 
     # Load the data
-    file_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path = "AirBnB/df_last_encoding.csv"
     df_final = pd.read_csv(file_path)
 
     # Define custom colors for property types
@@ -878,7 +878,7 @@ elif page == pages[3]:
     import numpy as np
 
     # Load the data
-    file_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path = "AirBnB/df_last_encoding.csv"
     df_last_encoding = pd.read_csv(file_path)
 
     # Define the data for prices based on distance categories to landmarks
@@ -1019,7 +1019,7 @@ elif page == pages[4]:
     import pandas as pd
 
     # Load the data
-    file_path = r"C:/Users/eddeg/Desktop/Data analysis course_Streamlit/df_last_encoding.csv"
+    file_path = r"AirBnB/df_last_encoding.csv"
     df_last_encoding = pd.read_csv(file_path)
 
 
@@ -1086,7 +1086,7 @@ elif page == pages[4]:
     import seaborn as sns
 
     # Load the data
-    file_path = r"C:\Users\eddeg\Desktop\Data analysis course_Streamlit\df_last_encoding.csv"
+    file_path = r"AirBnB\df_last_encoding.csv"
     df = pd.read_csv(file_path)
 
 
@@ -1176,7 +1176,7 @@ elif page == pages[5]:
 
     st.write("Machine learning models metrics:")
     # Display the image showing the results
-    image_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/Results.png"
+    image_path = "AirBnB/Results.png"
     image = Image.open(image_path)
     st.image(image, caption="Model Performance Comparison: Random Forest Achieved the Best Results", use_column_width=True)
 
@@ -1198,7 +1198,7 @@ elif page == pages[5]:
     unsafe_allow_html=True
     )
 # Display the image with the histogram of classified prices
-    image_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/Prices.jpg"
+    image_path = "AirBnB/Prices.jpg"
     image = Image.open(image_path)
     st.image(image, caption="Histogram of Property Prices Categorized into Classes (0, 1, 2, 3)", use_column_width=True)
 
@@ -1227,7 +1227,7 @@ elif page == pages[5]:
     )
 
     # Display the confusion matrix image
-    image_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/Confusion matrix.jpg"
+    image_path = "AirBnB/Confusion matrix.jpg"
     image = Image.open(image_path)
     st.image(image, caption="Confusion Matrix for Price Classification Model", use_column_width=True)
 
@@ -1250,7 +1250,7 @@ elif page == pages[5]:
     import streamlit as st
 
     # Define the path to the image
-    image_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/Accuracy.png"
+    image_path = "AirBnB/Accuracy.png"
 
     # Display the image with a caption
     st.image(image_path, caption="Classification Model Accuracy", use_column_width=True)
@@ -1284,7 +1284,7 @@ The model effectively leveraged these variables to provide accurate price predic
     import numpy as np
 
     # Load the trained Random Forest Regression model from the pickle file
-    model_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/random_forest_model.pkl"
+    model_path = "AirBnB/random_forest_model.pkl"
     with open(model_path, 'rb') as model_file:
         model = pickle.load(model_file)
 
