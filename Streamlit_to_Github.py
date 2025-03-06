@@ -132,7 +132,32 @@ elif page == pages[1]:
     import streamlit as st
     import pandas as pd
 
-    
+    # Load the data
+    file_path = "AirBnB/listings_drop.csv"
+    df = pd.read_csv(file_path)
+
+    # Select specific columns to display in the table
+    columns_to_display = [
+        'name', 'property_type', 'latitude', 'longitude', 'bathrooms_text',
+        'bedrooms', 'beds', 'price', 'number_of_reviews', 'review_scores_rating'
+    ]
+
+    # Create a smaller dataframe with the selected columns
+    df_display = df[columns_to_display].head(10)  # Display only the first 10 rows for clarity
+
+# Display a smaller header for the table
+    st.markdown(
+    """
+    <h4 style='font-size:16px; color:gray;'>
+    Pre-processed Airbnb Listings Sample Data
+    </h4>
+    """,
+    unsafe_allow_html=True
+    )
+    st.dataframe(df_display)
+    # Display the shape of the full dataframe
+    st.markdown(f"**Dataset Shape:** `{df.shape}` (rows, columns)”)
+
 
     st.markdown(
         """
