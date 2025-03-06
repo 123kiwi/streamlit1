@@ -24,7 +24,9 @@ st.sidebar.image("AirBnB/airbnb.jpg", width=300)
 
 st.sidebar.title("Table of contents")
 # Create six pages
-pages=["Introduction and Objective", "Data Exploration and Preprocessing", "Data Visualization", "Data Modelling", "Prediction", "Conclusion"]
+pages = ["Introduction & Objective", "Data Audit & Exploration", "Data Cleaning & Preparation", 
+         "Exploratory Data Visualization", "Data Optimization & Feature Engineering", 
+         "Machine Learning Models", "Prediction", "Conclusion"]
 page=st.sidebar.radio("Go to", pages)
 
 st.sidebar.markdown("<br><br>", unsafe_allow_html=True)
