@@ -1171,7 +1171,7 @@ elif page == pages[5]:
         # Display the image with a title
 
         image = Image.open(image_path)
-        st.image(image, caption=f"Model: {selected_model}", use_column_width=True)
+        st.image(image, caption=f"Model: {selected_model}", use_container_width=True)
     else:
         st.error(f"Image file not found for the model: {selected_model}")
 
@@ -1179,7 +1179,7 @@ elif page == pages[5]:
     # Display the image showing the results
     image_path = "AirBnB/Results.png"
     image = Image.open(image_path)
-    st.image(image, caption="Model Performance Comparison: Random Forest Achieved the Best Results", use_column_width=True)
+    st.image(image, caption="Model Performance Comparison: Random Forest Achieved the Best Results", use_container_width=True)
 
     st.subheader("🎯 Classification Model Evaluation")
 
@@ -1201,7 +1201,7 @@ elif page == pages[5]:
 # Display the image with the histogram of classified prices
     image_path = "AirBnB/Prices.jpg"
     image = Image.open(image_path)
-    st.image(image, caption="Histogram of Property Prices Categorized into Classes (0, 1, 2, 3)", use_column_width=True)
+    st.image(image, caption="Histogram of Property Prices Categorized into Classes (0, 1, 2, 3)", use_container_width=True)
 
     st.markdown(
         """
@@ -1230,7 +1230,7 @@ elif page == pages[5]:
     # Display the confusion matrix image
     image_path = "AirBnB/Confusion matrix.jpg"
     image = Image.open(image_path)
-    st.image(image, caption="Confusion Matrix for Price Classification Model", use_column_width=True)
+    st.image(image, caption="Confusion Matrix for Price Classification Model", use_container_width=True)
 
 
     
@@ -1254,7 +1254,7 @@ elif page == pages[5]:
     image_path = "AirBnB/Accuracy.png"
 
     # Display the image with a caption
-    st.image(image_path, caption="Classification Model Accuracy", use_column_width=True)
+    st.image(image_path, caption="Classification Model Accuracy", use_container_width=True)
 
 
 
