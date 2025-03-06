@@ -1147,7 +1147,7 @@ elif page == pages[5]:
     import os
 
     # Define the path to the images folder
-    image_folder_path = "C:/Users/eddeg/Desktop/Data analysis course_Streamlit/"
+    image_folder_path = "AirBnB/"
 
     # Define the available models and corresponding image file names
     model_image_mapping = {
