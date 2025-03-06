@@ -77,6 +77,9 @@ if page == pages[0]:
     )
 
     # Display an image with the correct parameter
+    st.image("AirBnB/airbnb.jpg", width=300)
+
+    
     image_path = "AirBnB/Airbnb.jpg"
     image = Image.open(image_path)
     st.image(image, caption="Airbnb Pricing Analysis", use_column_width=True)
